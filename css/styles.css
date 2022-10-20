@@ -37,3 +37,9 @@ body{
   margin-right:49%;
   float: none;
 }
+.projects{
+  display:table;
+}
+div.projects h1{
+  text-align: center;
+}
