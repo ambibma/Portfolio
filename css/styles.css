@@ -13,7 +13,27 @@ body{
   margin: auto;
   border: 50px white;
   padding:4px;
-  background-color:lavender;
+  background-color:rgba(230, 230, 250);
   color: black;
   text-align: center;
+}
+.about{
+  margin: auto;
+  border: 50px white;
+  padding: 4px;
+  background-color: rgb(177, 177, 247);
+  color: black;
+}
+.about h1{
+  text-align: center;
+}
+.about p{
+  text-align: center;
+}
+#profilepic {
+  width:250px;
+  height: auto;
+  margin-left: 40%;
+  margin-right:49%;
+  float: none;
 }
