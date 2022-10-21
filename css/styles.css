@@ -20,9 +20,9 @@ body{
 .about{
   margin: auto;
   border: 50px white;
-  padding: 4px;
   background-color: rgb(177, 177, 247);
   color: black;
+  padding: 5px
 }
 .about h1{
   text-align: center;
@@ -36,20 +36,26 @@ body{
   margin-left: 40%;
   margin-right:49%;
   float: none;
+
 }
-h1{
-  text-align: center;
+.projects h1{
+  display:flex;
+  background-color: rgb(175,169,252);
+  justify-content: center;
+  margin-block: auto;
 }
-.projects{
+.project-container{
   display:flex;
   background-color: rgb(175, 169, 252);
   justify-content: space-around;
 }
 .item{
-  width: 100px;
-  height: 100px;
+  flex-basis: 100px;
+  height: auto;
   background:rgb(252, 175, 169);
-  color: rgb(252, 175, 169);
+  color: rgb(255, 255, 255);
   margin: 10px;
+  text-align: center;
+  flex-grow: 1
   
 }
