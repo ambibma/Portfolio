@@ -37,9 +37,19 @@ body{
   margin-right:49%;
   float: none;
 }
-.projects{
-  display:table;
-}
-div.projects h1{
+h1{
   text-align: center;
+}
+.projects{
+  display:flex;
+  background-color: rgb(175, 169, 252);
+  justify-content: space-around;
+}
+.item{
+  width: 100px;
+  height: 100px;
+  background:rgb(252, 175, 169);
+  color: rgb(252, 175, 169);
+  margin: 10px;
+  
 }
