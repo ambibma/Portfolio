@@ -22,7 +22,8 @@ body{
   border: 50px white;
   background-color: rgb(177, 177, 247);
   color: black;
-  padding: 5px
+  padding: 5px;
+  text-align: center;
 }
 .about h1{
   text-align: center;
@@ -36,6 +37,7 @@ body{
   margin-left: 40%;
   margin-right:49%;
   float: none;
+  text-align: center;
 
 }
 .projects h1{
@@ -68,5 +70,5 @@ body{
 }
 .edu .list{
   text-align: center;
-  margin-left:40px;
+
 }
