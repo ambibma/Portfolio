@@ -115,22 +115,59 @@ body{
   text-align: center;
   flex-grow: 1;
 }
-#hob{
-  text-align: center;
-}
 
-/* .hobbies{
+.hobhead{
   text-align: center;
-} */
-.skate p{
-  width: 300px;
-  float:left;
+  display: flex;
+  justify-content: center;
+  margin-block: auto;
+  padding:2px;
 }
-.airbrush p{
-  width:300px;
+.hobbies{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(128, 128, 128);
+  height: 530px;
+  padding:1px;
+  justify-content: space-around;
+
+}
+.hobbies .skate{
+  flex-basis: 100px;
+  height: 80%;
+  background:rgb(252, 175, 169);
+  color: rgb(0, 0, 0);
+  margin: 10px;
   text-align: center;
+  flex-grow: 1
 }
-.screen p{
-  width: 300px;
-  float: left;
+#trick{
+  height: 200px;
+  margin-top: 10px;
+}
+.hobbies .airbrush{
+  flex-basis: 100px;
+  height: 80%;
+  background:rgb(252, 175, 169);
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  text-align: center;
+  flex-grow: 1
+}
+#shodan{
+  height: 200px;
+  margin-top:10px
+}
+.hobbies .screen{
+  flex-basis: 100px;
+  height: 80%;
+  background:rgb(252, 175, 169);
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  text-align: center;
+  flex-grow: 1
+}
+#bag{
+  height: 200px;
+  margin-top:10px;
 }
