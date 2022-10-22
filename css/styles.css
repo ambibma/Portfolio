@@ -115,3 +115,22 @@ body{
   text-align: center;
   flex-grow: 1;
 }
+#hob{
+  text-align: center;
+}
+
+/* .hobbies{
+  text-align: center;
+} */
+.skate p{
+  width: 300px;
+  float:left;
+}
+.airbrush p{
+  width:300px;
+  text-align: center;
+}
+.screen p{
+  width: 300px;
+  float: left;
+}
