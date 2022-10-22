@@ -133,39 +133,57 @@ body{
 
 }
 .hobbies .skate{
-  flex-basis: 100px;
-  height: 80%;
+  flex-basis: auto;
+  height: auto;
   background:rgb(252, 175, 169);
   color: rgb(0, 0, 0);
   margin: 10px;
   text-align: center;
   flex-grow: 1
+}
+.hobbies .skate h1{
+  text-align: center;
+}
+.hobbies .skate ul{
+  text-align: left;
+}
+.highlight{
+  color: red;
 }
 #trick{
   height: 200px;
   margin-top: 10px;
 }
 .hobbies .airbrush{
-  flex-basis: 100px;
-  height: 80%;
+  flex-basis: auto;
+  height: auto;
   background:rgb(252, 175, 169);
   color: rgb(0, 0, 0);
   margin: 10px;
   text-align: center;
   flex-grow: 1
+}
+.hobbies .airbrush ul{
+  text-align: left;
 }
 #shodan{
   height: 200px;
   margin-top:10px
 }
 .hobbies .screen{
-  flex-basis: 100px;
-  height: 80%;
+  flex-basis: auto;
+  height: auto;
   background:rgb(252, 175, 169);
   color: rgb(0, 0, 0);
   margin: 10px;
   text-align: center;
   flex-grow: 1
+}
+.hobbies .screen h1{
+  text-align: center;
+}
+.hobbies .screen ul{
+  text-align: left;
 }
 #bag{
   height: 200px;
