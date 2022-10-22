@@ -62,16 +62,56 @@ body{
   
 }
 .edu{
+  display: flex;
   margin:auto;
+  flex-direction: column;
   background-color: rgb(177, 177, 247);
   color: black;
   padding: 5px;
   text-align: center;
+  justify-content: space-around;
 }
-.edu .list{
+.edu h1 {
   text-align: center;
-
+  display: flex;
+  justify-content: center;
+  margin-block: auto;
 }
-.edu img{
-  text-align: left;
+.ucsc{
+  flex: 1;
+  height: auto;
+  background-color: yellow;
+  color:rgb(0, 0, 0);
+  margin:10px;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.coop{
+  flex-basis: 100px;
+  height: auto;
+  background-color: rgb(0, 255, 128);
+  color:rgb(0, 0, 0);
+  margin:10px;
+  display:flex;
+  justify-content: right;
+  text-align: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.coop img{
+  padding:5px;
+  margin-left: 10px;
+}
+
+.epic{
+  flex-basis: 100px;
+  height: auto;
+  background-color: rgba(29, 141, 145, 0.904);
+  color:rgb(0, 0, 0);
+  margin:10px;
+  text-align: center;
+  flex-grow: 1;
 }
