@@ -33,12 +33,17 @@ body{
   color: black;
   padding: 25px;
   text-align: center;
+  font-size:24px;
 }
 .about h1{
   text-align: center;
 }
 .about p{
   text-align: center;
+}
+.goals{
+  text-align: left;
+  margin-left:618px;
 }
 #profilepic {
   width:250px;
@@ -99,10 +104,14 @@ body{
   flex-grow: 1;
   font-size:18px;
 }
+.ucsc p{
+  font-size:24px;
+}
+
 .coop{
   flex-basis: 100px;
   height: auto;
-  background-color: rgb(0, 255, 128);
+  background-color: rgba(0, 255, 128, 0.39);
   color:rgb(0, 0, 0);
   margin:10px;
   display:flex;
@@ -115,11 +124,15 @@ body{
   padding:5px;
   margin-left: 10px;
 }
+.coop p{
+  margin-right:20px;
+  font-size:24px;
+}
 
 .epic{
   flex-basis: 100px;
   height: auto;
-  background-color: rgba(29, 141, 145, 0.904);
+  background-color: rgba(29, 141, 145, 0.479);
   color:rgb(0, 0, 0);
   margin:10px;
   text-align: center;
@@ -134,6 +147,7 @@ body{
 }
 .epic p{
   margin-top: 155px;
+  font-size:24px;
 }
 .hobhead{
   text-align: center;
