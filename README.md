@@ -20,7 +20,7 @@ _Markdown_
 _Youtube_ (_thank you_ [TraversyMedia](https://www.youtube.com/c/TraversyMedia) for helping further understand flexbox) 
 _Google Chrome Debug_
 _dillinger.io_
-
+_StackOverflow_
 # Application Setup Instructions #
 1. Clone this repository github.com/ambibma/Portfolio to your desktop.
 2. Open gitbash or terminal.
@@ -30,6 +30,7 @@ _dillinger.io_
 *      $start index.html
 
 # known Bugs #
-No Known bugs as of yet..
+Sometimes OL in about me section does not like to center itself
+Flexbox in hobbies section fails to scale correctly on mobile
 ## copyright, date, license info ##
 Copyright (c) 2022 Ambi Hidalgo
