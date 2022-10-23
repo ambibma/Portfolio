@@ -6,8 +6,8 @@ body{
   font-size:18px;
   color: rgb(0, 0, 0);
 }
-/* .fadein{
-  animation: fadein 5s
+.fadein{
+  animation: fadein 3s
 }
 @keyframes fadein{
   from{
@@ -16,7 +16,7 @@ body{
   to{
     opacity: 100%;
   }
-} */
+}
 .ambi{
   
   border: 50px white;
