@@ -17,8 +17,7 @@ body{
     opacity: 100%;
   }
 }
-.ambi{
-  
+.ambi{  
   border: 50px white;
   padding:4px;
   background-color:rgba(255, 206, 206, 0.322);
@@ -48,16 +47,17 @@ body{
 .about p{
   text-align: center;
 }
-.goals{
+.about .goals{
   text-align: left;
-  margin-left:618px;
+  margin-left:279px;
+  display:block;
+  text-align: start;
 }
 #profilepic {
   width:250px;
   height: auto;
   float: none;
   text-align: center;
-
 }
 .projects h1{
   display:flex;
@@ -78,9 +78,7 @@ body{
   color: rgb(0, 0, 0);
   margin: 10px;
   text-align: center;
-  flex-grow: 1;
-
-  
+  flex-grow: 1; 
 }
 .edu{
   display: flex;
@@ -114,7 +112,6 @@ body{
 .ucsc p{
   font-size:24px;
 }
-
 .coop{
   flex-basis: 100px;
   height: auto;
@@ -135,7 +132,6 @@ body{
   margin-right:20px;
   font-size:24px;
 }
-
 .epic{
   flex-basis: 100px;
   height: auto;
