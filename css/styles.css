@@ -1,12 +1,36 @@
 html{
   background-color: black;
+  /* /* animation: 3s 1 alternate slidein ;
 }
+@keyframes slidein{
+  from{
+    color:
+   
+    
+  }
+  to {
+    color:
+    
+    
+  
+    
+  } */
+} */
 body{
   font-family: Arial, Helvetica, sans-serif;
   font-size:18px;
   color: white;
-
-
+  animation-name: fadein;
+  animation-duration: 5s; 
+  animation-iteration-count: 1;
+  }
+@keyframes fadein{
+  from{
+    opacity: 0%;
+  }
+  to{
+    opacity: 100%;
+  }
 }
 
 .ambi{
@@ -16,14 +40,14 @@ body{
   background-color:rgb(206, 206, 255);
   color: black;
   text-align: center;
-  animation: 3s infinite alternate slidein;
 }
+
 .about{
   margin: auto;
   border: 50px white;
   background-color: rgb(197, 197, 255);
   color: black;
-  padding: 5px;
+  padding: 25px;
   text-align: center;
 }
 .about h1{
@@ -49,7 +73,8 @@ body{
   display:flex;
   background-color: rgb(174, 168, 255);
   justify-content: space-around;
-}
+  animation-duration: 3s;
+}    
 .item{
   flex-basis: 100px;
   height: auto;
@@ -58,7 +83,9 @@ body{
   margin: 10px;
   text-align: center;
   flex-grow: 1;
-  
+  animation-name: slidein;
+  animation-iteration-count: alternate;
+  animation-direction: alternate;
   
 }
 .edu{
