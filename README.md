@@ -30,7 +30,7 @@ _StackOverflow_.
 *      $start index.html
 
 # known Bugs #
-Sometimes OL in about me section does not like to center itself
-Flexbox in hobbies section fails to scale correctly on mobile
+* Sometimes OL in about me section does not like to center itself
+* Flexbox in hobbies section fails to scale correctly on mobile
 ## copyright, date, license info ##
 Copyright (c) 2022 Ambi Hidalgo
