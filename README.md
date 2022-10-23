@@ -8,7 +8,7 @@ ___
 
 This application is a student project in order to review and solidify learned languages and applications. This also servers as a landing page for Ambi Hidalgo's portfolio, to showcase her work and share information about herself.
 
-A link to Ambi's portfolio landing page can be found [here](ambibma.github.io/Portfolio).
+A link to Ambi's portfolio landing page can be found [here](https://ambibma.github.io/Portfolio).
 
 # Technologies used #
 _HTML_
