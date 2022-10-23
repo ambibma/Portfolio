@@ -18,14 +18,21 @@ body{
   }
 } */
 .ambi{
-  margin: auto;
+  
   border: 50px white;
   padding:4px;
   background-color:rgba(255, 206, 206, 0.322);
   color: black;
   text-align: center;
+  height: 200px;
 }
-
+#cloud1{
+  height: 100px;
+}
+#cloud2{
+  height:100px;
+  transform:scaleX(-1)
+}
 .about{
   margin: auto;
   border: 50px white;
@@ -54,7 +61,7 @@ body{
 }
 .projects h1{
   display:flex;
-  background-color: rgba(218, 155, 204, 0.404);
+  background-color: rgba(250, 243, 248, 0.404);
   justify-content: center;
   margin-block: auto;
 }
