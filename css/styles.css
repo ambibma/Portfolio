@@ -1,12 +1,12 @@
 html{
-  background-image: linear-gradient(white,purple,black);
-}
+  background-image: linear-gradient(rgba(255, 212, 248, 0.644),rgba(182, 197, 230, 0.836),rgba(226, 176, 176, 0.829))
+}  
 body{
   font-family: Arial, Helvetica, sans-serif;
   font-size:18px;
   color: rgb(0, 0, 0);
 }
-.fadein{
+/* .fadein{
   animation: fadein 5s
 }
 @keyframes fadein{
@@ -16,12 +16,12 @@ body{
   to{
     opacity: 100%;
   }
-}
+} */
 .ambi{
   margin: auto;
   border: 50px white;
   padding:4px;
-  background-color:rgb(206, 206, 255);
+  background-color:rgba(255, 206, 206, 0.322);
   color: black;
   text-align: center;
 }
@@ -29,7 +29,7 @@ body{
 .about{
   margin: auto;
   border: 50px white;
-  background-color: rgb(197, 197, 255);
+  background-color: rgba(255, 209, 197, 0.432);
   color: black;
   padding: 25px;
   text-align: center;
@@ -49,20 +49,20 @@ body{
 }
 .projects h1{
   display:flex;
-  background-color: rgb(182, 182, 252);
+  background-color: rgba(218, 155, 204, 0.404);
   justify-content: center;
   margin-block: auto;
 }
 .project-container{
   display:flex;
-  background-color: rgb(174, 168, 255);
+  background-color: rgba(255, 168, 168, 0);
   justify-content: space-around;
   animation-duration: 3s;
 }    
 .item{
   flex-basis: 100px;
   height: auto;
-  background:rgb(252, 175, 169);
+  background:rgba(255, 39, 172, 0.459);
   color: rgb(0, 0, 0);
   margin: 10px;
   text-align: center;
@@ -74,7 +74,7 @@ body{
   display: flex;
   margin:auto;
   flex-direction: column;
-  background-color: rgb(177, 177, 247);
+  background-color: rgba(177, 247, 186, 0.541);
   color: black;
   padding: 5px;
   text-align: center;
@@ -89,7 +89,7 @@ body{
 .ucsc{
   flex: 1;
   height: auto;
-  background-color: yellow;
+  background-color: rgba(230, 230, 30, 0.384);
   color:rgb(0, 0, 0);
   margin:10px;
   display:flex;
@@ -97,6 +97,7 @@ body{
   text-align: center;
   align-items: center;
   flex-grow: 1;
+  font-size:18px;
 }
 .coop{
   flex-basis: 100px;
@@ -122,9 +123,18 @@ body{
   color:rgb(0, 0, 0);
   margin:10px;
   text-align: center;
-  flex-grow: 1;
+  flex-grow: 1; 
+  justify-content:left;
 }
-
+.epic img{
+  height:400px;
+  padding:5px;
+  margin-left:10px;
+  float: left;
+}
+.epic p{
+  margin-top: 155px;
+}
 .hobhead{
   text-align: center;
   display: flex;
